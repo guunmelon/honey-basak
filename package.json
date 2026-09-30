@@ -1,0 +1,29 @@
+{
+  "name": "honey-basak",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "허니바삭(HONEY BASAK) — 허니버터 감자칩 패키지 세계관을 재해석한 인터랙티브 브랜드 랜딩페이지 (가상 브랜드)",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "build:standalone": "vite build --mode standalone"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource/gaegu": "^5.3.0",
+    "@fontsource/gowun-dodum": "^5.3.0",
+    "@fontsource/jua": "^5.3.0",
+    "framer-motion": "^13.4.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.1",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
